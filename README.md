@@ -8,8 +8,8 @@ This is a solution to the [Notifications page challenge on Frontend Mentor](http
 
 ## Links
 
-- Solution URL:()
-- Live Site URL:()
+- Solution URL:(https://www.frontendmentor.io/solutions/notificationspage-jH3ED3yUt4)
+- Live Site URL:(https://mohamed806h.github.io/Notifications-page/)
 
 ## Built with
 
