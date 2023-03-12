@@ -4,7 +4,7 @@ This is a solution to the [Notifications page challenge on Frontend Mentor](http
 
 ## Screenshot
 
-![desktop-preview]()
+![desktop-preview](https://user-images.githubusercontent.com/91362640/224555416-3eb47887-ae36-4c2e-a4f9-79b1345400fb.jpg)
 
 ## Links
 
