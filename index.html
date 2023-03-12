@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Notifications page</title>
+  </head>
+  <body>
+    <main id="app">
+      <header class="app__header">
+        <section
+          class="app__header-section-one d-flex flex-row justify-content-between align-items-center"
+        >
+          <h1>Notifications<span class="changeSpan">3</span></h1>
+          <button type="button" class="change" onclick="changeState()">
+            Mark all as read
+          </button>
+        </section>
+        <section class="same app__header-section-two d-flex flex-row">
+          <div class="img">
+            <img src="./images/avatar-mark-webber.webp" alt="mark" />
+          </div>
+          <div class="paragraph">
+            <h2>
+              Mark Webber <span>reacted to your recent post</span>
+              <span>My first tournament today!</span>
+            </h2>
+            <p>1m ago</p>
+          </div>
+          <div class="circle one"></div>
+        </section>
+        <section class="same app__header-section-three d-flex flex-row">
+          <div class="img">
+            <img src="./images/avatar-angela-gray.webp" alt="angela" />
+          </div>
+          <div class="paragraph">
+            <h2>Angela Gray <span>followed you</span></h2>
+            <p>5m ago</p>
+          </div>
+          <div class="circle two"></div>
+        </section>
+        <section class="same app__header-section-four d-flex flex-row">
+          <div class="img">
+            <img src="./images/avatar-jacob-thompson.webp" alt="Jacob" />
+          </div>
+          <div class="paragraph">
+            <h2>
+              Jacob Thompson <span>has joined your group</span>
+              <span>Chess Club</span>
+            </h2>
+            <p>1 day ago</p>
+          </div>
+          <div class="circle three"></div>
+        </section>
+        <section class="app__header-section-five">
+          <div class="img">
+            <img src="./images/avatar-rizky-hasanuddin.webp" alt="Rizky" />
+          </div>
+          <div class="paragraph">
+            <h2>Rizky Hasanuddin <span>sent you a private message</span></h2>
+            <p class="first">5 days ago</p>
+            <div class="late">
+              <p class="last d-flex justify-content-center align-items-center">
+                Hello, thanks for setting up the Chess Club. I've been a member
+                for a few weeks now and I'm already having lots of fun and
+                improving my game.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="app__header-section-sex d-flex flex-row same">
+          <div class="img">
+            <img src="./images/avatar-kimberly-smith.webp" alt="Kimberly" />
+          </div>
+          <div class="paragraph">
+            <h2>Kimberly Smith <span>commented on your picture</span></h2>
+            <p>1 week ago</p>
+          </div>
+          <div class="img ch">
+            <img src="./images/image-chess.webp" alt="Chess" />
+          </div>
+        </section>
+        <section class="app__header-section-seven same d-flex flex-row">
+          <div class="img">
+            <img src="./images/avatar-nathan-peterson.webp" alt="Nathan" />
+          </div>
+          <div class="paragraph">
+            <h2>
+              Nathan Peterson <span>reacted to your recent post</span>
+              <span>5 end-game strategies to increase your win rate</span>
+            </h2>
+            <p>2 weeks ago</p>
+          </div>
+        </section>
+        <section class="same app__header-section-eight d-flex flex-row">
+          <div class="img">
+            <img src="./images/avatar-anna-kim.webp" alt="Anna" />
+          </div>
+          <div class="paragraph">
+            <h2>
+              Anna Kim <span>left the group</span> <span>Chess Club</span>
+            </h2>
+            <p>2 weeks ago</p>
+          </div>
+        </section>
+      </header>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

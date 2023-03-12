@@ -1,0 +1,355 @@
+.removebg {
+  background-color: var(--clr-WT);
+}
+
+.hidecircle {
+  display: none;
+}
+
+body {
+  background-color: var(--clr-VLGB);
+  font-family: var(--font-base);
+  font-size: 16px;
+}
+
+main header.app__header {
+  width: 731px;
+  height: 840px;
+  margin: 63px 0 0 354px;
+  background-color: var(--clr-WT);
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width: 35em) {
+  main header.app__header {
+    margin: 0 0 0 0;
+    border-radius: 0px;
+    box-shadow: none;
+    width: 375px;
+  }
+}
+main header.app__header .same {
+  width: 672px;
+  height: 82px;
+  background-color: var(--clr-VLGB);
+  border-radius: 10px;
+}
+@media screen and (max-width: 35em) {
+  main header.app__header .same {
+    width: 343px;
+  }
+}
+main header.app__header .same div.img {
+  margin: 15px 0 0 21px;
+}
+@media screen and (max-width: 35em) {
+  main header.app__header .same div.img {
+    margin: 14px 0 0 16px;
+  }
+}
+main header.app__header .same div.paragraph {
+  margin: 0 0 0 19px;
+}
+@media screen and (max-width: 35em) {
+  main header.app__header .same div.paragraph {
+    margin: 0 0 0 13px;
+  }
+}
+main header.app__header .same div.paragraph p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--clr-GB);
+}
+@media screen and (max-width: 35em) {
+  main header.app__header .same div.paragraph p {
+    font-size: 14px;
+  }
+}
+main header.app__header .same h2 {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  margin: 16px 0 0 0;
+  color: var(--clr-VDB);
+}
+@media screen and (max-width: 35em) {
+  main header.app__header .same h2 {
+    width: 275px;
+    height: 36px;
+    font-size: 14px;
+  }
+}
+main header.app__header .same h2 :first-child {
+  font-weight: 500;
+  color: var(--clr-DGB);
+}
+main header.app__header .same h2 :last-child {
+  color: var(--clr-DGB);
+}
+main header.app__header section {
+  margin: 0 0 0 30px;
+}
+@media screen and (max-width: 35em) {
+  main header.app__header section {
+    margin: 0 0 0 16px;
+  }
+}
+main header.app__header section div.img {
+  width: 45px;
+  height: 45px;
+}
+@media screen and (max-width: 35em) {
+  main header.app__header section div.img {
+    width: 40px;
+    height: 40px;
+  }
+}
+main header.app__header section div.circle {
+  display: block;
+  background-color: var(--clr-Red);
+  border-radius: 50%;
+  margin: 24px 0px 0 6px;
+  width: 8px;
+  height: 8px;
+}
+main header.app__header section.app__header-section-one h1 {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+  margin: 33px 0 0 33px;
+  color: var(--clr-VDB);
+}
+@media screen and (max-width: 35em) {
+  main header.app__header section.app__header-section-one h1 {
+    font-size: 20px;
+    margin: 15px 0 0 4px;
+  }
+}
+main header.app__header section.app__header-section-one h1 span {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--clr-WT);
+  text-align: center;
+  background-color: var(--clr-Blue);
+  border-radius: 5px;
+  padding: 1px 11px 4px 11px;
+  margin-left: 12px;
+}
+@media screen and (max-width: 35em) {
+  main header.app__header section.app__header-section-one h1 span {
+    margin: 0 0 0 9px;
+  }
+}
+main header.app__header section.app__header-section-one button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: transparent;
+  border: none;
+  color: var(--clr-DGB);
+  margin: 38px 29px 0 0;
+}
+main header.app__header section.app__header-section-one button:hover {
+  color: var(--clr-Blue);
+  cursor: pointer;
+}
+@media screen and (max-width: 35em) {
+  main header.app__header section.app__header-section-one button {
+    font-size: 14px;
+    margin: 28px 16px 0 0;
+  }
+}
+main header.app__header section.app__header-section-two {
+  margin-top: 25px;
+}
+@media screen and (max-width: 35em) {
+  main header.app__header section.app__header-section-two {
+    width: 343px;
+    height: 85px;
+  }
+}
+@media screen and (max-width: 35em) {
+  main header.app__header section.app__header-section-two div.paragraph p {
+    margin-top: 5px;
+  }
+}
+@media screen and (max-width: 35em) {
+  main header.app__header section.app__header-section-two div.circle {
+    margin: 42px 0 0 -47px;
+  }
+}
+main header.app__header section.app__header-section-two h2 :last-child:hover {
+  color: var(--clr-Blue);
+  cursor: pointer;
+}
+main header.app__header section.app__header-section-three {
+  margin-top: 10px;
+}
+main header.app__header section.app__header-section-three div.paragraph h2:hover {
+  color: var(--clr-Blue);
+  cursor: pointer;
+}
+@media screen and (max-width: 35em) {
+  main header.app__header section.app__header-section-three div.paragraph p {
+    margin-top: -15px;
+  }
+}
+@media screen and (max-width: 35em) {
+  main header.app__header section.app__header-section-three div.circle {
+    margin: 25px 0 0 -90px;
+  }
+}
+main header.app__header section.app__header-section-four {
+  margin-top: 10px;
+}
+@media screen and (max-width: 35em) {
+  main header.app__header section.app__header-section-four div.paragraph p {
+    margin-top: 5px;
+  }
+}
+@media screen and (max-width: 35em) {
+  main header.app__header section.app__header-section-four div.circle {
+    margin: 43px 0 0 -190px;
+  }
+}
+main header.app__header section.app__header-section-four h2 :last-child {
+  color: var(--clr-Blue);
+}
+main header.app__header section.app__header-section-four h2 :last-child:hover {
+  cursor: pointer;
+}
+main header.app__header section.app__header-section-five {
+  margin-top: 18px;
+}
+main header.app__header section.app__header-section-five div.img {
+  margin-left: 21px;
+}
+@media screen and (max-width: 35em) {
+  main header.app__header section.app__header-section-five div.img {
+    margin-left: 16px;
+  }
+}
+main header.app__header section.app__header-section-five div.paragraph {
+  margin: -45px 0 0 85px;
+}
+@media screen and (max-width: 35em) {
+  main header.app__header section.app__header-section-five div.paragraph {
+    margin: -45px 0 0 70px;
+  }
+}
+main header.app__header section.app__header-section-five div.paragraph h2 {
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 20px;
+  color: var(--clr-VDB);
+}
+@media screen and (max-width: 35em) {
+  main header.app__header section.app__header-section-five div.paragraph h2 {
+    font-size: 14px;
+  }
+}
+main header.app__header section.app__header-section-five div.paragraph h2 span {
+  font-weight: 500;
+  color: var(--clr-DGB);
+}
+main header.app__header section.app__header-section-five div.paragraph p.first {
+  margin-top: -5px;
+  color: var(--clr-GB);
+}
+@media screen and (max-width: 35em) {
+  main header.app__header section.app__header-section-five div.paragraph p.first {
+    font-size: 14px;
+    margin-top: -7px;
+  }
+}
+main header.app__header section.app__header-section-five div.paragraph div.late {
+  width: 568px;
+  height: 96px;
+  border: solid 1px var(--clr-LGBO);
+  padding: 19px 0 0 21px;
+}
+@media screen and (max-width: 35em) {
+  main header.app__header section.app__header-section-five div.paragraph div.late {
+    width: 263px;
+    height: 121px;
+    padding: 16px 0 0 15px;
+  }
+}
+main header.app__header section.app__header-section-five div.paragraph div.late:hover {
+  background-color: var(--clr-LGBO);
+  cursor: pointer;
+}
+main header.app__header section.app__header-section-five div.paragraph div.late p.last {
+  width: 526px;
+  height: 60px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--clr-DGB);
+}
+@media screen and (max-width: 35em) {
+  main header.app__header section.app__header-section-five div.paragraph div.late p.last {
+    width: 228px;
+    height: 90px;
+    font-size: 14px;
+  }
+}
+main header.app__header section.app__header-section-sex {
+  margin-top: 10px;
+  background-color: var(--clr-WT);
+}
+@media screen and (max-width: 35em) {
+  main header.app__header section.app__header-section-sex div.paragraph h2 {
+    width: 201px;
+  }
+}
+main header.app__header section.app__header-section-sex div.ch {
+  margin: 20px 0 0 181px;
+}
+@media screen and (max-width: 35em) {
+  main header.app__header section.app__header-section-sex div.ch {
+    margin: 20px 0 0 26px;
+  }
+}
+main header.app__header section.app__header-section-sex div.ch:hover {
+  box-shadow: 0 0px 8px 2px rgba(0, 0, 0, 0.2);
+}
+main header.app__header section.app__header-section-seven {
+  margin-top: 10px;
+  background-color: var(--clr-WT);
+}
+main header.app__header section.app__header-section-seven div.paragraph {
+  margin: 0 0 0 85px;
+}
+@media screen and (max-width: 35em) {
+  main header.app__header section.app__header-section-seven div.paragraph {
+    margin: 0 0 0 70px;
+  }
+}
+@media screen and (max-width: 35em) {
+  main header.app__header section.app__header-section-seven div.paragraph h2 {
+    width: 263px;
+  }
+}
+@media screen and (max-width: 35em) {
+  main header.app__header section.app__header-section-seven div.paragraph p {
+    margin-top: 25px;
+  }
+}
+main header.app__header section.app__header-section-seven div.img {
+  position: absolute;
+}
+main header.app__header section.app__header-section-eight {
+  margin-top: 10px;
+  background-color: var(--clr-WT);
+}
+main header.app__header section.app__header-section-eight h2 :last-child {
+  color: var(--clr-Blue);
+}
+@media screen and (max-width: 35em) {
+  main header.app__header section.app__header-section-eight p {
+    margin-top: -15px;
+  }
+}
